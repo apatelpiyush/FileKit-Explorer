@@ -1,0 +1,7 @@
+__pycache__/
+kit/
+pdf_env/
+*.py[cod]
+*.egg-info/
+build/
+dist/

@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "filekit-explorer"
+version = "1.0.0"
+description = "Cross-platform file conversion toolkit"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+
+authors = [
+    {name = "Piyush Patel"}
+]
+
+dependencies = [
+    "docx2pdf==0.1.8",
+    "pypdf<4",
+    "python-docx==1.1.0",
+    "Pillow==10.3.0"
+]
+
+[project.scripts]
+filekit = "filekit.controller:main"
+
+[tool.setuptools.packages.find]
+include = ["filekit*"]
