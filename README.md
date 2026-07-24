@@ -340,7 +340,7 @@ Bug reports and feature requests are always appreciated.
 
 # 👨‍💻 Author
 
-**Piyush Patel**
+**Piyush A Patel**
 
 GitHub: https://github.com/apatelpiyush
 
